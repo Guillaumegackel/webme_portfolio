@@ -5,7 +5,7 @@ import redux from "../assets/redux.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="work" className="w-full md:h-screen  text-gray-300 bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-blue-600">
@@ -14,7 +14,7 @@ const Work = () => {
           <p className="py-6">Check Out my recent Work</p>
         </div>
 {/* container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
 
 			{/* grid item */}
           <div  

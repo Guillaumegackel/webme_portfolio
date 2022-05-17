@@ -1,6 +1,5 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -14,12 +13,12 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a Full Stack Developper
         </h2>
-        <p className=" text-[#8892b0] py-4 max -w-[700px]">I Think Good Dev</p>
-        <p>Are not only Good Engineer</p>
-        <p>But also need to be Good</p>
-        <p>Partner/Communicant/Marketer/CoWorker</p>
+        <p className=" text-[#8892b0] mt-5 max-w-[700px]">I Think Good Dev Are not only Good Engineer</p>
+        <p className=" text-[#8892b0] max-w-[700px]"></p>
+        <p className=" text-[#8892b0] max-w-[700px]">But also need to be Good</p>
+        <p className=" text-[#8892b0] mt-5 text-2xl sm:text-3xl max -w-[500px]">Partner/Communicant/Marketer/CoWorker</p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600">
+          <button className="text-white group border-2 px-6 py-3 mt-4 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600">
             View my work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
