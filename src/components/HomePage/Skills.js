@@ -1,16 +1,16 @@
 import React from "react";
-import css from "../assets/css.png";
-import figma from "../assets/figma.png";
-import github from "../assets/github.png";
-import html from "../assets/html.png";
-import javascript from "../assets/javascript.png";
-import mongo from "../assets/mongo.png";
-import node from "../assets/node.png";
-import react from "../assets/react.png";
-import redux from "../assets/redux.png";
-import tailwind from "../assets/tailwind.png";
-import postgresql from "../assets/postgresql.jpg";
-import mui from "../assets/mui.png";
+import css from "../../assets/css.png";
+import figma from "../../assets/figma.png";
+import github from "../../assets/github.png";
+import html from "../../assets/html.png";
+import javascript from "../../assets/javascript.png";
+import mongo from "../../assets/mongo.png";
+import node from "../../assets/node.png";
+import react from "../../assets/react.png";
+import redux from "../../assets/redux.png";
+import tailwind from "../../assets/tailwind.png";
+import postgresql from "../../assets/postgresql.jpg";
+import mui from "../../assets/mui.png";
 
 const Skills = () => {
   return (

@@ -6,7 +6,6 @@ import logo from "../assets/WebMelogo.png";
 import { Link } from 'react-scroll'
 import useKonamiCode from './KonamiCode/useKonamiCode';
 import Sound from './KonamiCode/Sound';
-import Home from "./Home";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +15,6 @@ const Navbar = () => {
 
   if (konami) {
     return <div>
-      <Home/>
       <Sound />
 
   </div>

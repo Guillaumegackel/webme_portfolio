@@ -1,8 +1,8 @@
 import React from "react";
-import cduprops from "../assets/cduprops.png";
-import Cine_WebMe from "../assets/Cine_WebMe.png";
-import Doudou_Kitchen from "../assets/Doudou_Kitchen.png";
-import Meteo_WebMe from "../assets/Meteo_WebMe.png";
+import cduprops from "../../assets/cduprops.png";
+import Cine_WebMe from "../../assets/Cine_WebMe.png";
+import Doudou_Kitchen from "../../assets/Doudou_Kitchen.png";
+import Meteo_WebMe from "../../assets/Meteo_WebMe.png";
 
 const Work = () => {
   return (

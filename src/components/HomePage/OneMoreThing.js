@@ -1,6 +1,6 @@
 import React from "react";
-import konami from "../assets/konami.png";
-import OneMoreThingModal from "../components/OneMoreThingModal"
+import konami from "../../assets/konami.png";
+import OneMoreThingModal from "./OneMoreThingModal"
 
 const OneMoreThing = () => {
   return (

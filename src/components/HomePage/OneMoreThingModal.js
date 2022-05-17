@@ -1,7 +1,7 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import { MdGamepad } from "react-icons/md";
-import Konami from "../assets/Konami_Code.png"
+import Konami from "../../assets/Konami_Code.png"
 
 
 export default function MyModal() {

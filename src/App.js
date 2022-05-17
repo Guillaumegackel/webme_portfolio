@@ -1,26 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
-import OneMoreThing from "./components/OneMoreThing";
+import HomePage from "./components/HomePage";
 import RandomPage from "./components/RandomPage";
 
 function App() {
 
   return (
     <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <OneMoreThing/>
-      <Contact />
-      <RandomPage />
-    </div>
-  );
-}
+    <BrowserRouter>
+    <Navbar />
+    <Routes>
+    <Route path="/" element={<HomePage />} />
+    <Route path="random-itw-job" element={<RandomPage />} />
+    </Routes>
+  </BrowserRouter>
+  </div>
+)}
 
 export default App;
