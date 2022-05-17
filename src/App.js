@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import OneMoreThing from "./components/OneMoreThing";
-import randomPage from "./components/RandomPage";
+import RandomPage from "./components/RandomPage";
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
       <Work />
       <OneMoreThing/>
       <Contact />
-      <randomPage />
+      <RandomPage />
     </div>
   );
 }

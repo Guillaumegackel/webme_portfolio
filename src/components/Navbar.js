@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
       {/* Menu principal */}
       <ul className="hidden md:flex">
-      <li className="rounded-lg px-6 py-2 text-pink-500 font-medium hover:bg-pink-500 hover:text-slate-900 hover:font-bold"> <Link to="home" smooth={true} duration={500}>
+      <li className="rounded-lg px-6 py-2 text-pink-500 font-medium hover:bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:font-bold text-center"> <Link to="home" smooth={true} duration={500}>
          Random Questions Job Interview
         </Link></li>
 
@@ -61,9 +61,15 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-center"
         }
       >
+
+        <li className="py-6 text-4xl text-pink-600 hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth={true} duration={500}>
+        Random Questions Job Itw
+        </Link></li>
+
+
         <li className="py-6 text-4xl hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth={true} duration={500}>
          Home
         </Link></li>
