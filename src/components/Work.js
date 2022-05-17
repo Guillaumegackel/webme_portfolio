@@ -1,7 +1,8 @@
 import React from "react";
-import mui from "../assets/mui.png";
-import git from "../assets/git.png";
-import redux from "../assets/redux.png";
+import cduprops from "../assets/cduprops.png";
+import Cine_WebMe from "../assets/Cine_WebMe.png";
+import Doudou_Kitchen from "../assets/Doudou_Kitchen.png";
+import Meteo_WebMe from "../assets/Meteo_WebMe.png";
 
 const Work = () => {
   return (
@@ -18,7 +19,7 @@ const Work = () => {
 
 			{/* grid item */}
           <div  
-		  style={{ backgroundImage: `url(${mui})` }}
+		  style={{ backgroundImage: `url(${cduprops})` }}
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
@@ -40,7 +41,7 @@ const Work = () => {
           </div>
 
           <div  
-		  style={{ backgroundImage: `url(${git})` }}
+		  style={{ backgroundImage: `url(${Cine_WebMe})` }}
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
@@ -60,7 +61,7 @@ const Work = () => {
             </div>
           </div>
           <div  
-		  style={{ backgroundImage: `url(${redux})` }}
+		  style={{ backgroundImage: `url(${Doudou_Kitchen})` }}
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
@@ -81,7 +82,7 @@ const Work = () => {
           </div>
 			{/* grid item */}
           <div  
-		  style={{ backgroundImage: `url(${mui})` }}
+		  style={{ backgroundImage: `url(${Meteo_WebMe})` }}
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
@@ -102,7 +103,7 @@ const Work = () => {
           </div>
 
           <div  
-		  style={{ backgroundImage: `url(${git})` }}
+		  style={{ backgroundImage: `url(${Meteo_WebMe})` }}
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
@@ -122,7 +123,7 @@ const Work = () => {
             </div>
           </div>
           <div  
-		  style={{ backgroundImage: `url(${redux})` }}
+		  style={{ backgroundImage: `url(${Meteo_WebMe})` }}
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
