@@ -5,8 +5,10 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import OneMoreThing from "./components/OneMoreThing";
+import randomPage from "./components/RandomPage";
 
 function App() {
+
   return (
     <div>
       <Navbar />
@@ -16,6 +18,7 @@ function App() {
       <Work />
       <OneMoreThing/>
       <Contact />
+      <randomPage />
     </div>
   );
 }

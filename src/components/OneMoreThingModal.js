@@ -1,6 +1,7 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import { MdGamepad } from "react-icons/md";
+import Konami from "../assets/Konami_Code.png"
 
 
 export default function MyModal() {
@@ -22,7 +23,7 @@ export default function MyModal() {
           onClick={openModal}
           className="text-white group border-2 px-6 py-3 mt-4 my-2 flex items-center hover:bg-[#e05915] hover:border-[#e05915]">
           Need a Tips ?
-          <span className="group-hover:rotate-90 duration-300">
+          <span className="group-hover:rotate-(-180) duration-500">
             <MdGamepad className="ml-3" />
           </span>
         </button>
@@ -60,12 +61,15 @@ export default function MyModal() {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    Payment successful
+                    What the Hell is This "Konami Code" ?
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
+The Konami Code (Japanese: コナミコマンド) is a cheat code that appears in many Konami video games.<br/><br/>In the original code, the player has to press the following sequence of buttons on the game controller to enable a cheat or other effects.
+<br/><br/>
+<img src={Konami} alt="Konami Code sequence" />
+<br/><br/>
+Get back on the main page and try this sequence , maybe a cheeky rookie developer has imagined a secret function
                     </p>
                   </div>
 

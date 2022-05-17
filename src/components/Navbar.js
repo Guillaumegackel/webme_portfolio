@@ -4,10 +4,23 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../assets/WebMelogo.png";
 import { Link } from 'react-scroll'
+import useKonamiCode from './KonamiCode/useKonamiCode';
+import Sound from './KonamiCode/Sound';
+import Home from "./Home";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClickMenu = () => setNav(!nav);
+
+  const konami = useKonamiCode();
+
+  if (konami) {
+    return <div>
+      <Home/>
+      <Sound />
+
+  </div>
+  }
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -17,6 +30,10 @@ const Navbar = () => {
       </div>
       {/* Menu principal */}
       <ul className="hidden md:flex">
+      <li className="rounded-lg px-6 py-2 text-pink-500 font-medium hover:bg-pink-500 hover:text-slate-900 hover:font-bold"> <Link to="home" smooth={true} duration={500}>
+         Random Questions Job Interview
+        </Link></li>
+
         <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"> <Link to="home" smooth={true} duration={500}>
          Home
         </Link></li>
