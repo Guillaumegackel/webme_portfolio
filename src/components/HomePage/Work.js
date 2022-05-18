@@ -33,7 +33,7 @@ const Work = () => {
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Démo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Guillaumegackel/apotheose-front">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Source Code</button>
                 </a>
               </div>
@@ -45,9 +45,9 @@ const Work = () => {
 		  className="shadow-lg shadow-[#40c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                C DU PROPS
+               LE CINE DE WEBME
               </span>
 
               <div className="pt-8 text-center">
@@ -67,14 +67,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                C DU PROPS
+                DOUDOU KITCHEN
               </span>
 
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Démo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Guillaumegackel/Doudou-Kitchen">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Source Code</button>
                 </a>
               </div>
@@ -88,14 +88,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                C DU PROPS
+                METEO APP
               </span>
 
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Démo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Guillaumegackel/meteo-application">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Source Code</button>
                 </a>
               </div>
