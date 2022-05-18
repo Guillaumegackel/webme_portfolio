@@ -2,35 +2,36 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import logo from "../assets/WebMelogo.png";
+import logo from "../../assets/WebMelogo.png";
 import { Link } from 'react-scroll'
-import useKonamiCode from './KonamiCode/useKonamiCode';
-import Sound from './KonamiCode/Sound';
+import { NavLink } from 'react-router-dom';
+// import RandomPage from "./RandomPage"
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClickMenu = () => setNav(!nav);
 
-  const konami = useKonamiCode();
 
-  if (konami) {
-    return <div>
-      <Sound />
-
-  </div>
-  }
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       {/* logo */}
-      <div className="p-4">
+      <NavLink to="/" className="p-4">
         <img  src={logo} alt="logo" style={{ width: "120px" }} />
-      </div>
+      </NavLink>
       {/* Menu principal */}
       <ul className="hidden md:flex">
-      <li className="rounded-lg px-6 py-2 text-pink-500 font-medium hover:bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:font-bold text-center"> <Link to="home" smooth={true} duration={500}>
+      <li className="rounded-lg px-6 py-2 text-pink-500 font-medium hover:bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:font-bold text-center">
+        <NavLink 
+        to="random-itw-job"
+        smooth={true} 
+        duration={500}
+        >
          Random Questions Job Interview
-        </Link></li>
+        </NavLink>
+        </li>
 
         <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"> <Link to="home" smooth={true} duration={500}>
          Home

@@ -1,13 +1,9 @@
 import oneUp from '../../assets/Sound/oneUp.mp3';
 
-function Sound() {
+function sound() {
   const audio = new Audio(oneUp);
   // audio.loop = false;
-
-  return (
-    // Success Sound
-audio.play()
-  );
+  audio.play()
 }
 
-export default Sound;
+export default sound;
