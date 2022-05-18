@@ -5,6 +5,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../../assets/WebMelogo.png";
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
+import useKonamiCode from '../KonamiCode/useKonamiCode';
+import sound from '../KonamiCode/sound';
 // import RandomPage from "./RandomPage"
 
 
@@ -13,17 +15,22 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClickMenu = () => setNav(!nav);
 
+  const konami = useKonamiCode();
+	if (konami) {
+		sound();
+	}
+
 
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div name="Navbar" className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       {/* logo */}
       <NavLink to="/" className="p-4">
         <img  src={logo} alt="logo" style={{ width: "120px" }} />
       </NavLink>
       {/* Menu principal */}
       <ul className="hidden md:flex">
-      <li className="rounded-lg px-6 py-2 text-pink-500 font-medium hover:bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white hover:font-bold text-center">
+      <li className= { !konami ? "hidden" : "rounded-lg px-6 py-2 mr-4 text-white-500 bg-gradient-to-r from-purple-500 to-pink-600 font-bold text-center  hover:text-slate-600 " }>
         <NavLink 
         to="random-itw-job"
         smooth={true} 
@@ -52,7 +59,7 @@ const Navbar = () => {
 
       {/* BurgerMenu */}
       <div onClick={handleClickMenu} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}{" "}
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* MobileMenu */}
@@ -103,17 +110,10 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#6fc2b0]]">
-            <a 
-			className="flex justify-between items-center w-full text-gray-300" 
-			href="/">
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#565f69]">
             <a 
 			className="flex justify-between items-center w-full text-gray-300" 
-			href="/">
+			href="https://drive.google.com/file/d/1RstencGpb4nXkSWIAmRfLcfGQcERz2MH/view?usp=sharing">
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>

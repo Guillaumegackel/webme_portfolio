@@ -6,14 +6,10 @@ import Skills from "./Skills";
 import Work from "./Work";
 import Contact from "./Contact";
 import OneMoreThing from "./OneMoreThing";
-import useKonamiCode from '../KonamiCode/useKonamiCode';
-import sound from '../KonamiCode/sound';
+
 
 const HomePage = () => {
-	const konami = useKonamiCode();
-	if (konami) {
-		sound();
-	}
+
 
   return (
 	<div>

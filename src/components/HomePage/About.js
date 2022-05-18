@@ -18,7 +18,8 @@ const About = () => {
             </div>
 			<div>
 				<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates praesentium iure rem dolor fuga fugit quae odio quasi iusto error nisi ex veritatis consectetur soluta aliquid aut, nostrum tempora quibusdam assumenda necessitatibus reiciendis iste velit quia repellat? Aspernatur quod nam, expedita iusto perferendis deleniti nemo reprehenderit modi ullam eius tempora.
+        <span className="font-bold hover:text-pink-500">Project Director</span> in severals digital agencies (BETC / WPP / ...), I operate at 39 years old a retraining in Web Development.<br/>I just finished a 6 month training at <a href="https://oclock.io/formations/developpeur-web-fullstack-javascript" className="font-bold hover:text-pink-500">O'clock School </a> to become a JavaScript Fullstack Developer with <a  href="https://epicreact.dev/why-i-love-react/#:~:text=So%20another%20thing%20I%20love,html%20file%20using%20this%20approach." className="font-bold hover:text-pink-500">a love Crush for "REACT JS".</a><br/>
+        It is my curiosity and my attraction for the digital universe and its differents media that drive me today
 				</p>
 			</div>
           </div>

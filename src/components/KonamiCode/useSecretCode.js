@@ -8,7 +8,7 @@ const useSecretCode = (secretCode) => {
 
   useEffect(() => {
     // Checker si remise a 0 apres avoir ete joue 1 fois
-    setSuccess(false);
+    // setSuccess(true);
     // ignore keyup
     if (key == null) return;
 

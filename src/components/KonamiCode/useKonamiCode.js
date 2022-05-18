@@ -12,6 +12,7 @@ const konamiCode = [
   // 'KeyB',
   // 'KeyA',
 ];
+console.log(konamiCode);
 
 const useKonamiCode = () => {
   const success = useSecretCode(konamiCode);

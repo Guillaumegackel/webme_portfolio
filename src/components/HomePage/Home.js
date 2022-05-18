@@ -1,5 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from 'react-scroll'
+
 
 
 
@@ -21,8 +23,9 @@ const Home = () => {
         <p className=" text-[#8892b0] max-w-[700px]">But also need to be Good</p>
         <p className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold mt-5 text-2xl sm:text-3xl max -w-[500px]">Partner/Communicant/Marketer/CoWorker</p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 mt-4 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600">
-            View my work
+          <button className="text-white group border-2 px-6 py-3 mt-4 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600"><Link to="work" smooth={true} duration={500}>
+          View my work</Link>
+          
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
