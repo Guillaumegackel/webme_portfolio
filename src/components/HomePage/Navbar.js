@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../../assets/WebMelogo.png";
 import { Link } from 'react-scroll'
@@ -113,7 +112,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#565f69]">
             <a 
 			className="flex justify-between items-center w-full text-gray-300" 
-			href="https://drive.google.com/file/d/1RstencGpb4nXkSWIAmRfLcfGQcERz2MH/view?usp=sharing">
+			href="https://drive.google.com/file/d/1RstencGpb4nXkSWIAmRfLcfGQcERz2MH/view?usp=sharing" target="blank">
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>

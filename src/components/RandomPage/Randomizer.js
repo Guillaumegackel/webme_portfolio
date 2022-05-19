@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import QuestionGenerator from './QuestionGenerator';
 import { FaRandom } from "react-icons/fa";
 
 
+
 const Randomizer = () => {
+
   return (
+
+
 	<div name="home" className="w-full h-screen bg-[#0a192f]">
 	{/* container */}
 	<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -21,6 +26,11 @@ const Randomizer = () => {
 			<FaRandom className="ml-3"/>
 		  </span>
 		</button>
+
+		<QuestionGenerator />
+
+
+
 	  </div>
 	</div>
   </div> 
