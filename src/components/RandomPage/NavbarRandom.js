@@ -19,7 +19,7 @@ const NavbarRandom = () => {
 		<li className="rounded-lg px-6 py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold text-center">
         <NavLink 
         to="/"
-        smooth={true} 
+        smooth="true"
         duration={500}
         >
          Return to HomePage

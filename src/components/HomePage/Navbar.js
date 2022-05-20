@@ -32,26 +32,26 @@ const Navbar = () => {
       <li className= { !konami ? "hidden" : "rounded-lg px-6 py-2 mr-4 text-white-500 bg-gradient-to-r from-purple-500 to-pink-600 font-bold text-center  hover:text-slate-600 " }>
         <NavLink 
         to="random-itw-job"
-        smooth={true} 
+        smooth="true"
         duration={500}
         >
          Random Questions Job Interview
         </NavLink>
         </li>
 
-        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"> <Link to="home" smooth={true} duration={500}>
+        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"> <Link to="home" smooth="true" duration={500}>
          Home
         </Link></li>
-        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="about" smooth={true} duration={500}>
+        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="about" smooth="true" duration={500}>
          About
         </Link></li>
-        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="skills" smooth={true} duration={500}>
+        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="skills" smooth="true" duration={500}>
          Skills
         </Link></li>
-        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="work" smooth={true} duration={500}>
+        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="work" smooth="true" duration={500}>
          Work
         </Link></li>
-        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="contact" smooth={true} duration={500}>
+        <li className="rounded-lg py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900 hover:font-bold"><Link to="contact" smooth="true" duration={500}>
          Contact
         </Link></li>
       </ul>
@@ -70,24 +70,24 @@ const Navbar = () => {
         }
       >
 
-        <li className="py-6 text-4xl text-pink-600 hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth={true} duration={500}>
+        <li className="py-6 text-4xl text-pink-600 hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth="true" duration={500}>
         Random Questions Job Itw
         </Link></li>
 
 
-        <li className="py-6 text-4xl hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth={true} duration={500}>
+        <li className="py-6 text-4xl hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth="true" duration={500}>
          Home
         </Link></li>
-        <li className="py-6 text-4xl"><Link onClick={handleClickMenu}  to="about" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={handleClickMenu}  to="about" smooth="true" duration={500}>
          About
         </Link></li>
-        <li className="py-6 text-4xl"><Link onClick={handleClickMenu} to="skills" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={handleClickMenu} to="skills" smooth="true" duration={500}>
          Skills
         </Link></li>
-        <li className="py-6 text-4xl"><Link onClick={handleClickMenu} to="work" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={handleClickMenu} to="work" smooth="true" duration={500}>
          Work
         </Link></li>
-        <li className="py-6 text-4xl"><Link onClick={handleClickMenu} to="contact" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={handleClickMenu} to="contact" smooth="true" duration={500}>
          Contact
         </Link></li>
       </ul>

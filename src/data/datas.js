@@ -1,11 +1,11 @@
 export const datasQ = [
 	{
 		"id":1,
-		"question":"Explain me \" closure \" concept"
+		"question":"Explain me\"closure\" concept"
 	},
 	{
 		"id":2,
-		"question":"What's the separtaion of concern ?"
+		"question":"What's the separation of concern ?"
 	},
 	{
 		"id":3,
@@ -21,7 +21,7 @@ export const datasQ = [
 	},
 	{
 		"id":6,
-		"question":"Immutability, explain me as you would do for your GrandMother :) "
+		"question":"Immutability, explain me as you would do for your GrandMother :)"
 	},
 	{
 		"id":7,
@@ -37,7 +37,7 @@ export const datasQ = [
 	},
 	{
 		"id":10,
-		"question":"Why \"Fullstack \" title is import for you ?"
+		"question":"Why \"Fullstack\" title is import for you ?"
 	},
 	{
 		"id":11,
