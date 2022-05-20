@@ -1,15 +1,19 @@
 // import React, { useState } from 'react';
 import QuestionGenerator from './QuestionGenerator';
 import { FaRandom } from "react-icons/fa";
+import getRandomData from '../../data/getRandomData';
+import { useState } from 'react';
 
-// const [question, setquestion] = useState("")
 
-const Submit = () =>{
-	<QuestionGenerator />
-	return
-}
 
 const Randomizer = () => {
+
+	const [question, setquestion] = useState(null)
+
+
+	function handleClick() {
+		setquestion(getRandomData())
+	}
 
   return (
 
@@ -25,7 +29,7 @@ const Randomizer = () => {
 	Let destiny choose the last question
 	  </h2>
 	  <div>
-		<button type='submit' className="text-white group border-2 px-6 py-3 flex items-center mt-10 m-auto hover:bg-blue-600 hover:border-blue-600 " onClick={Submit}>
+		<button type='submit' className="text-white group border-2 px-6 py-3 flex items-center mt-10 m-auto hover:bg-blue-600 hover:border-blue-600 " onClick={handleClick}>
 		Generate a random question
 		  <span className="group-hover:scale-150 duration-300">
 			<FaRandom className="ml-3"/>
@@ -33,7 +37,7 @@ const Randomizer = () => {
 		</button>
 
 <div className='py-20 text-center'>
-<QuestionGenerator />
+<QuestionGenerator michel={question}/>
 </div>
 
 
