@@ -20,7 +20,7 @@ const Home = () => {
         </h2>
         <p className=" text-[#8892b0] mt-5 max-w-[700px]">I Think Good Dev Are not only Good Engineer</p>
         <p className=" text-[#8892b0] max-w-[700px]"></p>
-        <p className=" text-[#8892b0] max-w-[700px]">But also need to be Good</p>
+        <p className=" text-[#8892b0] max-w-[700px]">But also need to be Good :</p>
         <p className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold mt-5 text-2xl sm:text-3xl max -w-[500px]">Partner/Communicant/Marketer/CoWorker</p>
         <div>
           <button className="text-white group border-2 px-6 py-3 mt-4 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600"><Link to="work" smooth={true} duration={700}>

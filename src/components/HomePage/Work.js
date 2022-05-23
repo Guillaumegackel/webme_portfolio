@@ -92,7 +92,7 @@ const Work = () => {
               </span>
 
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://meteo-webme.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Démo</button>
                 </a>
                 <a href="https://github.com/Guillaumegackel/meteo-application">
