@@ -18,7 +18,7 @@ const Randomizer = () => {
   return (
 
 
-	<div name="home" className="w-full h-screen bg-[#0a192f]">
+	<div name="random-itw-job" className="w-full h-screen bg-[#0a192f]">
 	{/* container */}
 	<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
 	  <h1 className="text-4xl sm:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mt-2 mb-5 font-bold text-[#ccd6f6] text-center">

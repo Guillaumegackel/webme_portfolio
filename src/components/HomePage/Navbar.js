@@ -70,9 +70,9 @@ const Navbar = () => {
         }
       >
 
-        <li className="py-6 text-4xl text-pink-600 hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth="true" duration={500}>
+        <li className="py-6 text-4xl text-pink-600 hover:font-bold"><NavLink onClick={handleClickMenu} to="random-itw-job" smooth="true" duration={500}>
         Random Questions Job Itw
-        </Link></li>
+        </NavLink></li>
 
 
         <li className="py-6 text-4xl hover:font-bold"><Link onClick={handleClickMenu} to="home" smooth="true" duration={500}>
@@ -98,14 +98,17 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-blue-500">
             <a 
 			className="flex justify-between items-center w-full text-gray-300" 
-			href="https://www.linkedin.com/in/guillaume-gackel-57436023/">
+			href="https://www.linkedin.com/in/guillaume-gackel-57436023/"
+      target="blank">
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#333333] ">
             <a 
-			className="flex justify-between items-center w-full text-gray-300" 
-			href="https://github.com/Guillaumegackel">
+			className="flex justify-between items-center w-full text-gray-300 " 
+			href="https://github.com/Guillaumegackel"
+      target="blank"
+      >
               GitHub <FaGithub size={30} />
             </a>
           </li>

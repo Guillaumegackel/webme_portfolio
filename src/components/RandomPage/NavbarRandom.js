@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../../assets/WebMelogo.png";
 import { NavLink } from "react-router-dom";
@@ -28,6 +27,7 @@ const NavbarRandom = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/guillaume-gackel-57436023/"
+              target="blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -36,6 +36,7 @@ const NavbarRandom = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/Guillaumegackel"
+              target="blank"
             >
               GitHub <FaGithub size={30} />
             </a>
