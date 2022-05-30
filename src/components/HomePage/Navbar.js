@@ -6,8 +6,6 @@ import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
 import useKonamiCode from '../KonamiCode/useKonamiCode';
 import sound from '../KonamiCode/sound';
-// import RandomPage from "./RandomPage"
-
 
 
 const Navbar = () => {
