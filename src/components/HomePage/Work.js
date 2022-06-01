@@ -51,10 +51,10 @@ const Work = () => {
               </span>
 
               <div className="pt-8 text-center">
-                <a href="/" target="blank">
+                <a href="https://cine-webme.netlify.app/" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Démo</button>
                 </a>
-                <a href="/" target="blank">
+                <a href="https://github.com/Guillaumegackel/cinema_app" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Source Code</button>
                 </a>
               </div>

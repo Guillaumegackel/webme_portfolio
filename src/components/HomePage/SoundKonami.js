@@ -4,8 +4,6 @@ const SoundKonami=()=>{
   const audio = new Audio(oneUp);
     // audio.loop = false;
   return(
-    
-
     audio.play()
   )
 }
