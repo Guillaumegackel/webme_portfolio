@@ -1,6 +1,6 @@
 import oneUp from '../../assets/Sound/oneUp.mp3';
 
-const soundKonami=()=>{
+const SoundKonami=()=>{
   const audio = new Audio(oneUp);
     // audio.loop = false;
   return(
@@ -10,4 +10,4 @@ const soundKonami=()=>{
   )
 }
 
-export default soundKonami;
+export default SoundKonami;

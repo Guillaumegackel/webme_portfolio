@@ -5,7 +5,7 @@ import logo from "../../assets/WebMelogo.png";
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
 import useKonamiCode from '../KonamiCode/useKonamiCode';
-import soundKonami from '../KonamiCode/sound.js';
+import soundKonami from '../KonamiCode/SoundKonami.js';
 
 
 
