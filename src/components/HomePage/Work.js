@@ -30,7 +30,7 @@ const Work = () => {
 
 {/* Ajouter lien de demo et github */}
               <div className="pt-8 text-center">
-                <a href="/" target="blank">
+                <a href="https://cduprop.herokuapp.com/" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Démo</button>
                 </a>
                 <a href="https://github.com/Guillaumegackel/apotheose-front" target="blank">
